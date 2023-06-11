@@ -17,6 +17,11 @@ pipeline {
                 echo 'The {PIPELINE}'
             }
         }
+        stage('Thank you') {
+            steps {
+                echo 'suneel'
+            }
+        }
         }
     }
 
